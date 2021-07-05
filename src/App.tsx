@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Deploy
+          Deploy com Vercel
         </a>
       </header>
     </div>
