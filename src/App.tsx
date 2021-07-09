@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Teste do Trabalho
+          Teste
         </a>
       </header>
     </div>
