@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styled from "styled-components";
-import { Winner } from "./Board";
-import { StartButton } from "./StartButton";
+import { Winner } from "../Components/Board/Board";
+import { Button } from "../Components/Button/Button";
 
 type ResetScreenProps = {
   winner: Winner;
@@ -12,7 +12,7 @@ const WinnerHeadding = styled.h2`
   color: #333;
   text-align: center;
   margin-top: 0;
-  font-size: 4rem;
+  font-size: 3rem;
 `;
 
 export const ResetScreen: FC<ResetScreenProps> = ({ winner, onReset }) => {
@@ -21,7 +21,7 @@ export const ResetScreen: FC<ResetScreenProps> = ({ winner, onReset }) => {
       <WinnerHeadding>
         {winner === "tie" ? "Deu velha" : `${winner} é o vencedor`}
       </WinnerHeadding>
-      <StartButton onClick={onReset}> Reiniciar </StartButton>
+      <Button onClick={onReset}> Reiniciar </Button>
     </>
   );
 };

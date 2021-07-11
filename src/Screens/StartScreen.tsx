@@ -1,10 +1,10 @@
 import React, { FC } from "react";
-import { StartButton } from "./StartButton";
+import { Button } from "../Components/Button/Button";
 
 type StartScreenProps = {
   onStart(): void;
 };
 
 export const StartScreen: FC<StartScreenProps> = ({ onStart }) => {
-  return <StartButton onClick={onStart}>Start</StartButton>;
+  return <Button onClick={onStart}>Start</Button>;
 };

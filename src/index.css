@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
 }
 
 html,
 body,
 #root {
+  background-color: rgba(0, 0, 0, 0.692);
   height: 100%;
 }
 

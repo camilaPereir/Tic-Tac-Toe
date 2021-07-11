@@ -1,18 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { FC, useEffect, useState } from "react";
-import styled from "styled-components";
-import { Cell, CellValue } from "./Cell";
-
-const BoardWrapper = styled.div`
-  background-color: #999999;
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  column-gap: 6px;
-  row-gap: 6px;
-`;
+import { Cell, CellValue } from "../Cell/Cell";
+import { BoardWrapper } from "./BoardWrapper";
 
 export type Winner = CellValue | "tie";
 
