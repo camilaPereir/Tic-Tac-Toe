@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <Heading>Tic Tac Toe</Heading>
+      <Heading>Jogo da Velha</Heading>
       <BoardContainer animate={gameState}>
         {
           {
